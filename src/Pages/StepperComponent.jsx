@@ -9,7 +9,7 @@ import TextField from '@mui/material/TextField';
 import Grid from '@mui/material/Grid';
 import { TiDelete } from "react-icons/ti";
 import { ToastContainer, toast } from 'react-toastify';
-import { addResumeAPI } from "../service/allAPI";
+import { addResumeAPI } from '../Service/allApi';
 
 const steps = ['Basic Information', 'Contact details', 'Education details', 'Work Experience', 'Skills & Certifications', 'Review & Submit'];
 

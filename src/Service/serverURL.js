@@ -1,0 +1,1 @@
+export const serverURL = "https://resume-bulider-backend.onrender.com"

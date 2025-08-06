@@ -7,8 +7,9 @@ import TextField from "@mui/material/TextField";
 import Grid from "@mui/material/Grid";
 import Button from "@mui/material/Button";
 import { TiDeleteOutline } from "react-icons/ti";
-import { getAResumeAPI, updateAResumeAPI } from '../service/allAPI';
+
 import { toast } from 'react-toastify';
+import { getAResumeAPI, updateAResumeAPI } from '../Service/allApi';
 
 function Edit1({ EditID,setResumeData }) {
     console.log(EditID);

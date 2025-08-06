@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router';
-import { deleteResumeAPI, getAllResumeAPI } from '../service/allAPI';
+
 import { MdDeleteForever } from "react-icons/md";
+import { deleteResumeAPI, getAllResumeAPI } from '../Service/allApi';
 // import { getAllResumeAPI } from '../Service/allApi';
 
 
